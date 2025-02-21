@@ -50,3 +50,5 @@ remainder = salary - total
 yearly_appartment_expense = 12*(rent+electricity)
 # fun 
 fun = salary**2
+# bonus
+additional = float(input("Additional amount of money for this month: "))
