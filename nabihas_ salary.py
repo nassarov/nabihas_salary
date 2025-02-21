@@ -52,3 +52,5 @@ yearly_appartment_expense = 12*(rent+electricity)
 fun = salary**2
 # bonus
 additional = float(input("Additional amount of money for this month: "))
+remaining = additional - additional*(savings_per/100)
+totalSaving = savings + remaining
