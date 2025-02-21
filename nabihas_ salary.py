@@ -15,3 +15,5 @@ months_dict = {
     "11": "November",
     "12": "December",
 }
+while(month == ""):
+    month =  input("You can't enter nothing: ")
