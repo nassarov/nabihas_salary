@@ -34,7 +34,13 @@ if month != "":
             month = y
             break #stop when one is found to not print it 2 times 
 
+# get the % from user
 print("Please enter percentages for:")
 savings_per = float(input("(1) Savings: "))
 rent_per = float(input("(2) Rent: "))
 electricity_per = float(input("(3) Electricity: "))
+
+# real value
+savings = salary*(savings_per/100)
+rent = salary*(rent_per/100)
+electricity = salary*(electricity_per/100)
