@@ -14,6 +14,17 @@ months_dict = {
     "10": "October",
     "11": "November",
     "12": "December",
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December"
 }
 while(month == ""):
     month =  input("You can't enter nothing: ")
