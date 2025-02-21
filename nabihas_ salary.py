@@ -17,3 +17,7 @@ months_dict = {
 }
 while(month == ""):
     month =  input("You can't enter nothing: ")
+if month != "":
+    for x,y in months_dict.items():
+        if month == x or month.capitalize()==y:
+            month = y
