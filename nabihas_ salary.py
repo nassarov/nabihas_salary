@@ -32,6 +32,7 @@ if month != "":
     for x,y in months_dict.items():
         if month == x or month.capitalize()==y:
             month = y
+            print(f"Month: {month}")
             break #stop when one is found to not print it 2 times 
 
 # get the % from user
@@ -59,21 +60,26 @@ total_saving = savings + remaining
 
 
 # RESULTS:
+print("##############################")
 print(f"Summary of {month}: ")
+print("##############################")
 print(f"Salary : ${salary}")
 print(f"->Rent : ${rent}")
 print(f"->Electricity : ${electricity}")
 print(f"->Savings : ${savings}")
 print("---------------------------")
 print(f"Total Expenses : ${total}")
-print(f"Remaining Salar : ${remainder}")
-print("# YEARLY APPARTMENT EXPENSES : ")
+print(f"Remaining Salary : ${remainder}")
+print("##############################")
+print("YEARLY APPARTMENT EXPENSES : ")
 print(f"->Yearly Rent : ${yearly_rent}")
 print(f"->Yearly Electricity : ${yearly_elec}")
+print("---------------------------")
 print(f"Total : ${yearly_elec+yearly_rent}")
-print("---------------------------")
+print("##############################")
 print(f"Just for fun (Salary^2) : {fun}")
-print("---------------------------")
+print("##############################")
 print(f"Your Additional Savings : ${additional}")
 print(f"Remaining from Additional Savings : ${remaining}")
-print(f"Total Savings (Including Additional) : ${total_saving}")
+print("---------------------------")
+print(f"Total Savings With Additional Money : ${total_saving}")
