@@ -55,4 +55,25 @@ fun = salary**2
 # bonus
 additional = float(input("Additional amount of money for this month: "))
 remaining = additional - additional*(savings_per/100)
-totalSaving = savings + remaining
+total_saving = savings + remaining
+
+
+# RESULTS:
+print(f"Summary of {month}: ")
+print(f"Salary : ${salary}")
+print(f"->Rent : ${rent}")
+print(f"->Electricity : ${electricity}")
+print(f"->Savings : ${savings}")
+print("---------------------------")
+print(f"Total Expenses : ${total}")
+print(f"Remaining Salar : ${remainder}")
+print("# YEARLY APPARTMENT EXPENSES : ")
+print(f"->Yearly Rent : ${yearly_rent}")
+print(f"->Yearly Electricity : ${yearly_elec}")
+print(f"Total : ${yearly_elec+yearly_rent}")
+print("---------------------------")
+print(f"Just for fun (Salary^2) : {fun}")
+print("---------------------------")
+print(f"Your Additional Savings : ${additional}")
+print(f"Remaining from Additional Savings : ${remaining}")
+print(f"Total Savings (Including Additional) : ${total_saving}")
