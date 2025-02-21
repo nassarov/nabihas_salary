@@ -32,3 +32,4 @@ if month != "":
     for x,y in months_dict.items():
         if month == x or month.capitalize()==y:
             month = y
+            break #stop when one is found to not print it 2 times 
