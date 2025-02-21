@@ -48,3 +48,5 @@ electricity = salary*(electricity_per/100)
 total = savings + rent +electricity
 remainder = salary - total
 yearly_appartment_expense = 12*(rent+electricity)
+# fun 
+fun = salary**2
