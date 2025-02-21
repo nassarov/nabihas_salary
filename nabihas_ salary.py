@@ -44,3 +44,6 @@ electricity_per = float(input("(3) Electricity: "))
 savings = salary*(savings_per/100)
 rent = salary*(rent_per/100)
 electricity = salary*(electricity_per/100)
+
+total = savings + rent +electricity
+remainder = salary - total
